@@ -1,0 +1,27 @@
+Floating Clock Installation Guide
+=================================
+
+Welcome to Floating Clock!
+
+Installation Steps:
+1. Drag FloatingClock.app to the Applications folder
+2. Launch FloatingClock from the Applications folder
+3. Enjoy your floating clock!
+
+Features:
+• 24-hour time display with millisecond precision
+• Always on top, never hidden by other windows
+• Draggable to any position
+• Double-click window to close the app
+• Right-click menu in Dock to quit
+• Automatic single instance protection
+• Launches in bottom-right corner of screen
+
+System Requirements:
+• macOS 14.0 or higher
+
+If you encounter issues, please check:
+• Whether the app is allowed to run in "System Preferences > Security & Privacy"
+• Whether necessary system permissions are granted
+
+Enjoy using it! 
