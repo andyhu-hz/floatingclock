@@ -6,6 +6,10 @@
 
 **已提供 DMG 安装包**: 项目包含 `FloatingClock_v1.0.dmg` 文件，可直接在 macOS x64 平台上使用，无需编译源码。
 
+## 📸 应用预览
+
+![FloatingClock 应用截图](FloatingClockExample.png)
+
 ## ✨ 功能特点
 
 - **精确时间显示**: 24小时制时间显示，精确到毫秒
