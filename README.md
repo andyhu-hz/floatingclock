@@ -6,9 +6,13 @@
 
 **已提供 DMG 安装包**: 项目包含 `FloatingClock_v1.0.dmg` 文件，可直接在 macOS x64 平台上使用，无需编译源码。
 
+**💾 直接下载**: [点击下载 FloatingClock_v1.0.dmg](https://github.com/andyhu-hz/floatingclock/raw/main/FloatingClock_v1.0.dmg)
+
 ## 📸 应用预览
 
 ![FloatingClock 应用截图](FloatingClockExample.png)
+
+*（时钟窗口在桌面的右下角）*
 
 ## ✨ 功能特点
 
@@ -80,9 +84,9 @@
 ## 📝 开发信息
 
 - **版本**: v1.0
-- **开发者**: [Your Name]
-- **许可证**: [License Type]
-- **项目地址**: [Repository URL]
+- **开发者**: Andy Hu
+- **许可证**: BSD 3-Clause License
+- **项目地址**: https://github.com/andyhu-hz/floatingclock
 
 ## 🤝 贡献
 
@@ -90,8 +94,170 @@
 
 ## 📄 许可证
 
-[在此添加许可证信息]
+BSD 3-Clause License
+
+Copyright (c) 2025, Andy Hu
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ---
 
-**享受你的浮动时钟！** ⏰ 
+**享受你的浮动时钟！** ⏰
+
+---
+
+# Floating Clock (English)
+
+An elegant macOS floating clock application that provides millisecond-precise time display.
+
+## 📦 Download
+
+**DMG Package Available**: The project includes `FloatingClock_v1.0.dmg` file, ready to use on macOS x64 platform without compiling source code.
+
+**💾 Direct Download**: [Click to download FloatingClock_v1.0.dmg](https://github.com/andyhu-hz/floatingclock/raw/main/FloatingClock_v1.0.dmg)
+
+## 📸 Application Preview
+
+![FloatingClock Application Screenshot](FloatingClockExample.png)
+
+*(Clock window located in the bottom-right corner of the desktop)*
+
+## ✨ Features
+
+- **Precise Time Display**: 24-hour format time display, accurate to milliseconds
+- **Always on Top**: Window always stays in front, never blocked by other applications
+- **Draggable**: Support mouse drag to move window position
+- **Multiple Close Options**: 
+  - Double-click window to close application
+  - Close from Dock right-click menu
+  - Use shortcut key `Cmd+Q`
+- **Multi-instance Prevention**: Automatically prevents multiple instances from running
+- **Smart Positioning**: Automatically appears in bottom-right corner on startup
+- **Beautiful Interface**: Pink gradient background, rounded corners, elegant shadow effects
+
+## 🚀 Installation Instructions
+
+### Method 1: Using DMG Package
+
+1. Download `FloatingClock_v1.0.dmg` file
+2. Double-click to open the DMG file
+3. Drag `FloatingClock.app` to `Applications` folder
+4. Launch `FloatingClock` from `Applications` folder
+
+### Method 2: Compile from Source
+
+1. Clone the project locally
+2. Open `FloatingClock.xcodeproj` with Xcode
+3. Select macOS as target device
+4. Click run button or use `Cmd+R` to compile and run
+
+## 📱 Usage
+
+1. **Launch Application**: Start from Applications folder or Dock
+2. **Move Position**: Use mouse to drag window to any position
+3. **Close Application**: 
+   - Double-click window
+   - Right-click Dock icon and select "Quit Floating Clock"
+   - Use shortcut key `Cmd+Q`
+
+## 💻 System Requirements
+
+- **Operating System**: macOS 14.0 or higher
+- **Architecture**: Intel or Apple Silicon (M1/M2/M3)
+- **Memory**: Minimum 4GB RAM
+- **Storage**: About 10MB available space
+
+## 🔧 Technical Features
+
+- **Development Language**: Swift + SwiftUI
+- **Time Precision**: Millisecond display (updates every 0.033 seconds)
+- **Window Management**: Custom NSWindow implementation for floating effect
+- **Performance Optimization**: Singleton pattern to avoid repeated object creation
+- **Memory Management**: Automatic memory management, no memory leaks
+
+## 🛠️ Troubleshooting
+
+If you encounter issues, please check:
+
+1. **Permission Settings**: 
+   - Open "System Preferences > Security & Privacy"
+   - Ensure FloatingClock is allowed to run
+
+2. **System Permissions**: 
+   - Check if necessary system permissions are granted
+   - Allow application access in "Privacy & Security"
+
+3. **Application Conflicts**: 
+   - Ensure no other instances are running
+   - Restart application or restart system
+
+## 📝 Development Information
+
+- **Version**: v1.0
+- **Developer**: Andy Hu
+- **License**: BSD 3-Clause License
+- **Project URL**: https://github.com/andyhu-hz/floatingclock
+
+## 🤝 Contributing
+
+Welcome to submit Issues and Pull Requests to improve this project!
+
+## 📄 License
+
+BSD 3-Clause License
+
+Copyright (c) 2025, Andy Hu
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+**Enjoy your floating clock!** ⏰ 
